@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewDestTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSourceTitle"
+        android:layout_centerVertical="true"
+        android:text="@string/lblDestPoint"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="launch"
+        android:text="@string/btnLabel" />
+
+    <TextView
+        android:id="@+id/textViewSourceXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSourceTitle"
+        android:layout_below="@+id/textViewSourceTitle"
+        android:text="@string/hintSrcPoint" />
+
+    <TextView
+        android:id="@+id/textViewDestXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDestTitle"
+        android:layout_below="@+id/textViewDestTitle"
+        android:text="@string/hintDestPoint" />
+
+    <TextView
+        android:id="@+id/textViewSourceTitle"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnLaunch"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/lblSrcPoint"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

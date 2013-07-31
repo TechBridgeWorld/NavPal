@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NavPal Room Specifier Test App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btnLabel">Launch New Activity</string>
+    <string name="lblSrcPoint">Source Point:</string>
+    <string name="lblDestPoint">Goal Point:</string>
+    <string name="hintSrcPoint">(Source X, source Y)</string>
+    <string name="hintDestPoint">(Goal X, Goal Y)</string>
+
+</resources>
